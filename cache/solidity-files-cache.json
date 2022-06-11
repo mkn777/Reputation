@@ -1,0 +1,114 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Block\\testcon\\contracts\\ABDKMathQuad.sol": {
+      "lastModificationDate": 1654882128274,
+      "contentHash": "a75477d57cd1615ab854138ba0e0a8a9",
+      "sourceName": "contracts/ABDKMathQuad.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ABDKMathQuad"
+      ]
+    },
+    "C:\\Block\\testcon\\contracts\\Reputation.sol": {
+      "lastModificationDate": 1654883441339,
+      "contentHash": "ab9b01485edf5d47225170f645a53659",
+      "sourceName": "contracts/Reputation.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Mytoken.sol",
+        "./ABDKMathQuad.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.24 <0.9.0"
+      ],
+      "artifacts": [
+        "Reputation"
+      ]
+    },
+    "C:\\Block\\testcon\\contracts\\Mytoken.sol": {
+      "lastModificationDate": 1654882143116,
+      "contentHash": "afea334b50718cdebafba39dac093545",
+      "sourceName": "contracts/Mytoken.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.24 <0.9.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "Mytoken"
+      ]
+    }
+  }
+}

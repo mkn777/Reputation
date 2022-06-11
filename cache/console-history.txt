@@ -1,0 +1,10 @@
+.exit
+await repu.calculaterep()
+await repu.rate(0,5,100)
+await repu.gettokencounts()
+await repu.addnewtoken()
+await repu.accessgiven()
+const repu = await Repu.attach('0x5FbDB2315678afecb367f032d93F642f64180aa3')
+const Repu = await ethers.getContractFactory('Reputation')
+const Rep = await ethers.getContractFactory('Reputation ')
+const Rep = await ethers.getContractFactory('Rep')
